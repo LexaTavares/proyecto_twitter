@@ -1,0 +1,31 @@
+body{
+  background-image: url(../img/bird.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.container{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.encabezado{
+  width: 100%;
+  font-size: 50px;
+}
+.contenedor{
+  width: 4%;
+  height: 2%;
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 30px;
+}
+.boton{
+  height: 30px;
+  background-color: lightblue;
+  border-radius: 15px;
+  border: none;
+  font-size: 15px;
+}
